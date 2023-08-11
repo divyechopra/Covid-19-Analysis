@@ -10,7 +10,7 @@ This project aims to analyze the COVID-19 pandemic using publicly available data
 
 <br>
 
-<p align="center"><img src="https://github.com/Sannidhi-Shetty2/COVID-19-Analysis/assets/62684303/178dce48-6221-49b3-b2a2-d553c8f9bcdd" width="400" ></p>
+<p align="center"><img src="https://www.cdc.gov/coronavirus/2019-ncov/images/prevent-getting-sick/06_Treatments-medium.png?_=21968" width="400" ></p>
 
 ##  <img src="https://github.com/Sannidhi-Shetty2/COVID-19-Analysis/assets/62684303/8e952995-c32d-4703-a9dd-92d1914cc6d9"  width="48" height="48"> Analysis
    
