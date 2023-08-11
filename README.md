@@ -1,11 +1,11 @@
 ##  <img src="https://github.com/Sannidhi-Shetty2/COVID-19-Analysis/assets/62684303/126ceca9-e69e-43b4-851a-9de69526d082" width="48" height="48"> COVID-19-Analysis
-This project aims to analyze the COVID-19 pandemic using publicly available data. The project includes a Jupyter notebook with Python code to extract, clean, and visualize COVID-19 data from various sources. Additionally, the project provides a dashboard to interactively explore the data.
+This project aims to analyze the COVID-19 pandemic using publicly available data. The project includes a Jupyter notebook with Python code to extract, clean, and visualize COVID-19 data from various sources. Additionally, the project provides a dashboard to explore the data interactively.
 ##  <img src="https://user-images.githubusercontent.com/106439762/181935629-b3c47bd3-77fb-4431-a11c-ff8ba0942b63.gif" width="48" height="48"> **User's Manual**
 
 | Files/Folder| Description |
 | ------------- | ------------- |
 | **Dataset Folder** | This folder provides data state-wise and district-wise data in CSV format |
-| **Python File** | This contains the .ipynb file of the analysis for Data Extract and Data cleaning.  |
+| **Python Files** | This contains the .ipynb files of the analysis for Data Extract and Data cleaning.  |
 | **MySQL File** | This contains the .sql file for the exploratory data analysis.  |
 
 <br>
@@ -30,7 +30,7 @@ This project aims to analyze the COVID-19 pandemic using publicly available data
     
 ### o	Dadra and Nagar Haveli has the highest Recovery Rate.
     
-### o	October has the Highest deceased cases.
+### o	October has the Highest number of deceased cases.
     
  <br>       
  
@@ -39,22 +39,22 @@ This project aims to analyze the COVID-19 pandemic using publicly available data
 
 
 
-### 1. Import the data from API using requests library.
+### 1. Import the data from API using the requests library.
 
     
-### 2. The imported data was in json format hence we used json library to read the data.
+### 2. The imported data was in JSON format hence we used JSON library to read the data.
 
 <img src="https://github.com/Sannidhi-Shetty2/COVID-19-Analysis/assets/62684303/7243d01e-9b32-43b6-9ae4-b3f6ba3ba9a8" width="1000" >
     
-### 3. We looked for null values and replaced it with zero, looked for duplicates.
+### 3. We looked for null values and replaced them with zero, looking for duplicates.
     
-### 4. Stated analysing the data by using pandas function like groupby, sort_values etc.
+### 4. Stated analyzing the data by using pandas functions like group by, sort_values, etc.
     
 ### 5. Used nested 'for' loops to extract the relevant data from the nested dictionary.
 
 <img src="https://github.com/Sannidhi-Shetty2/COVID-19-Analysis/assets/62684303/6331248c-c475-4797-a680-89fd8465a082" width="1000" >
     
-### 6. Extracted the individual state data from dataframe in csv format and imported data into MySQL.
+### 6. Extracted the individual state data from the data frame in CSV format and imported data into MySQL.
     
 ### 7. Aggregated the distribution by month and week wise for each state.
     
